@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+margin: 0;
+background-color:bisque ;
+
+}
+
+.blocks-parent{
+    display: flex;
+    width: 700px;
+    margin: auto;
+    border: 0px solid black;
+    margin-top: 150px;
+}
+
+.left-block{
+
+}
+
+.left-block span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right-block{
+    padding: 35px;
+background-color: rgb(255, 255, 255);
+height: 400px;
+width: 850px;
+
+}
+
+.image{
+    height: 400px;
+}
+
+.right-block span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(96, 96, 96);
+}
+
+.price{
+    color: rgb(0, 103, 0);
+}
+
+.prices {
+    color: green;
+    display: flex;
+    gap: 20px;
+}
+
+.prices h2{
+    color: black;
+}
+
+button{
+    background-color: green;
+    width: 230px;
+    height: 45px;
+    border:2px solid black;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: larger;
+    color: aliceblue;
+}
+
+button i{
+margin: 10px;
+}
